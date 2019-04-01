@@ -132,7 +132,7 @@ def shoe_size(name)
           return player_stat[:shoe]
         end
       end
-    end    
+    end
 end
 
 def team_colors(game_hash)
