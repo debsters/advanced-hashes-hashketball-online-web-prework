@@ -144,11 +144,11 @@ def team_colors(name)
 end
 
 def team_name
-  team_names = []
+  teams = []
   game_hash.each do |location, team_data|
-    team_names << team_data[:team_name]
+    teams << team_data[:team_name]
   end
-  team_names
+  teams
 end
 
 def player_numbers(game_hash)
