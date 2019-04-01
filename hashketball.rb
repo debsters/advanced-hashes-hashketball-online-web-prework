@@ -183,6 +183,6 @@ def big_shoe_rebounds
         rebounds = player_stats[:rebounds]
       end
     end
-  end    
+  end
   rebounds
 end
